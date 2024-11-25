@@ -1,0 +1,68 @@
+body{
+    background-color: #212529;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.myimg {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: #dadada;
+}
+h3{
+    color: #dadada;
+}
+
+
+.result-container{
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.disease-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #353638;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #dadada;
+}
+
+.disease-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.disease-list li {
+    width: 16.66%; 
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #dadada;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
